@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: textSummarizer
+Version: 0.0.0
+Summary: A small python package for NLP app
+Home-page: https://github.com/Sudheesh901/textsummarisation
+Author: Sudheesh901
+Author-email: sudheeshkrj@gmail.com
+Project-URL: Bug Tracker, https://github.com/Sudheesh901/textsummarisation/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
 # Text-Summarisation-Project
 
 ### 🧠 Tech Stack & Libraries Used
@@ -17,7 +34,7 @@
 | **python-box** | Converts YAML/JSON configs into dot-accessible Python objects for clean code. |
 | **fastapi** | Serves the trained model as a REST API endpoint. |
 | **uvicorn** | Lightweight ASGI server to run the FastAPI app efficiently. |
-| **boto3** | Integrates with AWS S3 for storing and retrieving models/data (git). |
+| **boto3** | Integrates with AWS S3 for storing and retrieving models/data (optional). |
 | **notebook** | Used for experimentation and interactive model testing in Jupyter. |
 
 ### These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
