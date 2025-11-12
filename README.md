@@ -1,4 +1,4 @@
-#Text-Summarisation-Project
+# Text-Summarisation-Project
 
 ### 🧠 Tech Stack & Libraries Used
 
@@ -20,4 +20,4 @@
 | **boto3** | Integrates with AWS S3 for storing and retrieving models/data (optional). |
 | **notebook** | Used for experimentation and interactive model testing in Jupyter. |
 
-# These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
+### These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
