@@ -165,3 +165,110 @@ Source-Age: 0
 [2025-11-13 22:59:47,364: INFO: common: created directory at: artifacts]
 [2025-11-13 22:59:47,366: INFO: common: created directory at: artifacts/data_validation]
 [2025-11-13 22:59:47,370: INFO: main: >>>>> stage Data Validation stage completed <<<<<]
+[2025-11-13 23:25:35,935: INFO: config: PyTorch version 2.9.1+cpu available.]
+[2025-11-13 23:46:01,408: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:46:01,464: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:46:01,475: INFO: common: created directory at: artifacts]
+[2025-11-13 23:46:01,480: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:48:37,872: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:48:37,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:48:37,883: INFO: common: created directory at: artifacts]
+[2025-11-13 23:48:37,886: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:50:13,337: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:50:13,341: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:50:13,343: INFO: common: created directory at: artifacts]
+[2025-11-13 23:50:13,346: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:50:18,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:50:18,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:50:18,827: INFO: common: created directory at: artifacts]
+[2025-11-13 23:50:18,829: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:52:01,663: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:52:01,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:52:01,670: INFO: common: created directory at: artifacts]
+[2025-11-13 23:52:01,672: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:52:41,997: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:52:42,000: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:52:42,003: INFO: common: created directory at: artifacts]
+[2025-11-13 23:52:42,005: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:52:50,171: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:52:50,175: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:52:50,178: INFO: common: created directory at: artifacts]
+[2025-11-13 23:52:50,181: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:52:59,839: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:52:59,842: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:52:59,845: INFO: common: created directory at: artifacts]
+[2025-11-13 23:52:59,846: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:57:01,120: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:57:01,134: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:57:01,142: INFO: common: created directory at: artifacts]
+[2025-11-13 23:57:01,144: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:58:13,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:58:13,711: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:58:13,713: INFO: common: created directory at: artifacts]
+[2025-11-13 23:58:13,714: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-13 23:58:25,692: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-13 23:58:25,696: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-13 23:58:25,698: INFO: common: created directory at: artifacts]
+[2025-11-13 23:58:25,701: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:00:42,639: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:00:42,644: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:00:42,647: INFO: common: created directory at: artifacts]
+[2025-11-14 00:00:42,649: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:01:09,327: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:01:09,330: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:01:09,332: INFO: common: created directory at: artifacts]
+[2025-11-14 00:01:09,335: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:01:51,280: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:01:51,284: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:01:51,287: INFO: common: created directory at: artifacts]
+[2025-11-14 00:01:51,290: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:02:59,757: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:02:59,761: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:02:59,763: INFO: common: created directory at: artifacts]
+[2025-11-14 00:02:59,765: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:23:07,353: INFO: config: PyTorch version 2.9.1+cpu available.]
+[2025-11-14 00:23:09,512: INFO: main: >>>>> Data ingestion stage started <<<<<]
+[2025-11-14 00:23:09,516: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:23:09,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:23:09,519: INFO: common: created directory at: artifacts]
+[2025-11-14 00:23:09,519: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-14 00:23:13,171: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2E84:FCC4F:117620:22BAD7:69162916
+Accept-Ranges: bytes
+Date: Thu, 13 Nov 2025 18:53:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10242-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1763059991.470237,VS0,VE653
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b540d8ef7cf13c46cd1e0b3dcfa21892f2083035
+Expires: Thu, 13 Nov 2025 18:58:12 GMT
+Source-Age: 0
+
+]
+[2025-11-14 00:23:13,820: INFO: main: >>>>> stage Data ingestion stage completed <<<<<]
+[2025-11-14 00:23:13,823: INFO: main: >>>>> Data Validation stage started <<<<<]
+[2025-11-14 00:23:13,832: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:23:13,835: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:23:13,836: INFO: common: created directory at: artifacts]
+[2025-11-14 00:23:13,838: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-14 00:23:13,855: INFO: main: >>>>> stage Data Validation stage completed <<<<<]
+[2025-11-14 00:23:13,857: INFO: main: >>>>> Data Validation stage started <<<<<]
+[2025-11-14 00:23:13,865: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-11-14 00:23:13,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-11-14 00:23:13,876: INFO: common: created directory at: artifacts]
+[2025-11-14 00:23:13,878: INFO: common: created directory at: artifacts/data_transformation]
+[2025-11-14 00:23:36,999: INFO: main: >>>>> stage Data Validation stage completed <<<<<]
