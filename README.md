@@ -1,4 +1,15 @@
-# Text-Summarisation-Project
+# End-To-End Text-Summarisation-Project
+
+##Workflows
+
+1. Update config.yaml
+2. Update params.yaml
+3. Update entity
+4. Update configuration manger in src/textSummarizer config
+5. Update components
+6. Update pipeline
+7. Update main.py
+8. app.py
 
 ### 🧠 Tech Stack & Libraries Used
 
@@ -21,3 +32,6 @@
 | **notebook** | Used for experimentation and interactive model testing in Jupyter. |
 
 ### These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
+
+
+# we've taken HuggingFace transformer (Seq2Seq) Pegasus and trained it with dataset in Google Collab
