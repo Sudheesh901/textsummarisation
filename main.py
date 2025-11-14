@@ -67,3 +67,22 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+'''
+STSGR_NAME ="Token Generation Stage"
+
+try:
+    logger.info(f"*************")
+    logger.info(f">>>>> {STAGE_NAME} started <<<<<")
+    token_generation=TokenGenerationPipeline()
+    dialogue=input("Enter Agen-customer dialogue")
+    result=token_generation.run(dialogue)
+    print("\nSummary:", result["summary"])
+    print("Tokens:", result["tokens"])
+    logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<\n\nx===========")
+except Exception as e:
+    logger.exception(e)
+    raise(e)
+
+'''
+

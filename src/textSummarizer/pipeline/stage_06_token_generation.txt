@@ -1,0 +1,20 @@
+##code to generatet the tokens out of summary
+
+from textSummarizer.logging import logger
+from textSummarizer.components.token_generator import TokenGenrator
+from textSummarizer.pipeline.prediction import PredictionPipeline
+
+class TokenGenerationPipeline:
+    def __init__(self):
+        self.predictor=PredictionPipeline()
+        self.tokenizer=TokenGenrator()
+    
+    def run(self, dialogue_text:str):
+        summary=self.predictor.predict(dialogue_text)
+        tokens=self.tokenizer.generate_tokens(summary)
+
+        return{
+            "Summary": summary,
+            "tokens":tokens
+        }
+

@@ -1,0 +1,31 @@
+##this code is if we want to generate tokens out of the summary
+
+from textSummarizer.logging import logger
+
+class TokenGenrator:
+    def __init__(self):
+        #simple rule based token generator
+        self.rules ={
+            "delay": "DELAY_ISSUE",
+            "late delivery": "DELAY_ISSUE",
+            "refund": "REFUND_REQUEST",
+            "unauthorized": "FRAUD_ALERT",
+            "blocked card": "CARD_BLOCKED",
+            "escalated": "ESCALATION_REQUIRED",
+            "not working": "TECHNICAL_ISSUE",
+            "technical issue": "TECHNICAL_ISSUE",
+        }
+    def generate_tokens(self,summary:str):
+        summary=summary.lower()
+        tokens=[]
+
+        for key, token in self.rules.items:
+            if key in summary:
+                tokens.append(token)
+            
+            if not tokens:
+                tokens.append("Contact Customercare")
+            
+            logger.info(f"Generated Tokens:{tokens}")
+
+        return tokens
