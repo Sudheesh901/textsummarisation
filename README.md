@@ -1,6 +1,8 @@
-# End-To-End Text-Summarisation-Project
+# End-To-End Text-Summarisation-Project 
 
-##Workflows
+# model  T5-small (text-to-text transformer)
+
+## Workflows
 
 1. Update config.yaml
 2. Update params.yaml
@@ -33,5 +35,64 @@
 
 ### These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
 
+## 🔄 Model Update: Migration from Pegasus to T5-small
 
-# we've taken HuggingFace transformer (Seq2Seq) Pegasus and trained it with dataset in Google Collab
+This project originally experimented with the **Pegasus (google/pegasus-cnn_dailymail)** model inside Google Colab.  
+Pegasus is a high-performance abstractive summarization model designed specifically for long-form text summarization.
+
+However, during End-to-End pipeline development on a **local CPU environment**, Pegasus became impractical due to its size and heavy GPU requirements. This led to Continuous Out-Of-Memory (OOM) errors, kernel crashes, and extremely slow training.
+
+To make the pipeline lightweight, stable, and deployment-friendly, the project was migrated to **T5-small**, a compact text-to-text model.
+
+---
+
+## ✔ Why T5-small Was Chosen
+
+T5-small contains only **60M parameters**, making it efficient for:
+- Local CPU training  
+- Fast iteration  
+- Low-resource deployment  
+- MLOps pipeline demonstrations  
+
+Even though it is smaller than Pegasus, T5-small still performs well for dialogue/news summarization tasks.
+
+---
+
+## 🔍 Differences Between Pegasus and T5-small
+
+### **Model Comparison Table**
+
+| Feature | Pegasus (cnn_dailymail) | T5-small |
+|--------|--------------------------|----------|
+| Model Type | Seq2Seq (summarization-specialized) | Seq2Seq (general text-to-text) |
+| Parameters | ~568M | ~60M |
+| Summarization Quality | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐☆ |
+| Speed | Slow | Fast |
+| Hardware Needs | Requires GPU | CPU-friendly |
+| Input Format | Plain text | Requires prefix: `summarize: <text>` |
+| Training Cost | High | Low |
+| Best Use | Research, long summaries, GPU servers | Deployment, CPU training, prototypes |
+
+---
+
+## 📌 When to Use Each Model
+
+### **Use Pegasus if:**
+- You need state-of-the-art summarization performance  
+- You have access to a powerful GPU  
+- You are working with long documents or research-level tasks  
+
+### **Use T5-small if:**
+- You are training and deploying on a CPU machine  
+- You need a lightweight and fast model  
+- You are building an end-to-end MLOps pipeline  
+- You want quick experimentation or cost-efficient deployment  
+
+---
+
+## 📘 Final Summary
+
+- The project initially used **Pegasus** for experimentation in Colab.  
+- Due to hardware limitations on the local machine, the pipeline was migrated to **T5-small**.  
+- T5-small provides a balanced combination of speed, stability, and summarization quality.  
+- All components—data transformation, training, evaluation, and deployment—now run using **T5-small** to ensure smooth execution on CPU.
