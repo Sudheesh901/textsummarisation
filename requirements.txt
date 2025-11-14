@@ -20,4 +20,5 @@ py7zr
 Jinja2==3.1.2
 ensure==1.0.2
 evaluate
+typeguard
 -e .
