@@ -13,6 +13,7 @@
 7. Update main.py
 8. app.py
 
+
 ### 🧠 Tech Stack & Libraries Used
 
 | Library | Purpose / Significance |
@@ -32,6 +33,13 @@
 | **uvicorn** | Lightweight ASGI server to run the FastAPI app efficiently. |
 | **boto3** | Integrates with AWS S3 for storing and retrieving models/data (git). |
 | **notebook** | Used for experimentation and interactive model testing in Jupyter. |
+
+
+
+
+## 3. Deployment:
+
+    - AWS ECR: 782198887741.dkr.ecr.us-east-1.amazonaws.com/texts
 
 ### These libraries together enable a full ML pipeline — from dataset preparation and model training to evaluation and cloud-ready deployment.
 
